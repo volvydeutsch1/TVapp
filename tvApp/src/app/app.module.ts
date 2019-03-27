@@ -12,6 +12,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatButtonModule } from '@angular/material';
 import { MatIconModule } from '@angular/material/icon';
 import { ShowsComponent } from './shows/shows.component';
+import { HttpClientModule} from '@angular/common/http';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ShowsComponent } from './shows/shows.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,7 +13,4 @@ export class SearchboxComponent implements OnInit {
   ngOnInit() {
   }
 
-  searchShow($event) {
-    console.log($event);
-  }
 }
