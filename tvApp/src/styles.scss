@@ -30,3 +30,4 @@ $tvApp-theme: mat-light-theme($tvApp-primary, $tvApp-accent, $tvApp-warn);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { background-image: linear-gradient(to bottom right, red, yellow);}

@@ -18,7 +18,6 @@ export class DataService {
     return this.http.get<any[]>('http://api.tvmaze.com/shows/' + id + '/seasons');
   }
   getEpisodes(id: number): Observable<any[]> {
-    console.log(id);
     return this.http.get<any[]>('http://api.tvmaze.com/seasons/' + id + '/episodes');
   }
 }

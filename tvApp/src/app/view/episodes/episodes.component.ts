@@ -17,7 +17,6 @@ export class EpisodesComponent implements OnInit {
 
   }
   ngOnInit() {
-    console.log(this.id);
     this.dataService.getEpisodes(this.id).subscribe(
       res => {
         this.episodes = [];
